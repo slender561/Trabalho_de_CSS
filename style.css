@@ -7,3 +7,8 @@ body{
 h3#primeiro {
     text-align:center;
 }
+
+.class{
+    text-align:center;
+    background-color: brown;
+}
