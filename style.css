@@ -1,5 +1,6 @@
 h1#first{
     text-align: center;
+    color: rgb(99, 28, 230);
 }
 
 a{
@@ -9,7 +10,6 @@ a{
 
 body{
     text-align: center;
-    background-image: url("drawable/pudim.jpg");
     background-size: 100%;
 }
 
