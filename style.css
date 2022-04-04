@@ -1,13 +1,11 @@
-@charset "UTF-8";
-
-
-h3#primeiro {
-    text-align:center;
+a{
+    color: rgb(219, 51, 191);
+    text-decoration: none;
 }
 
-.class{
-    text-align:center;
-    background-color: brown;
-    color: rgb(222, 13, 13);
+body{
+    text-align: center;
+    background-image: url("drawable/pudim.jpg");
+    background-size: 100%;
 }
 
