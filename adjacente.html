@@ -5,22 +5,39 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Seletor Irmão Adjacente</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='felipe.css'>
     <style>
-        p+p {color: rgb(240, 6, 6); font-family: Arial, Helvetica, sans-serif;}
+        .exemplo p+p {color: rgb(231, 38, 183); font-family: Arial, Helvetica, sans-serif;}
     </style>
 </head>
 <body>
     <div class="Explicacao-adjacente">
-        <h3>Seletor Irmao Adjacente</h3>
-        <p>Um seletor irmão adjacente (sibling selectors) 
-        consiste de um ou mais seletores simples separados por um sinal de adição, “+”.
-        É permitido deixar espaço em branco entre o elemento de combinação e os seletores. O seletor tem como alvo um elemento que seja irmão e adjacente ao primeiro elemento. </p>
-
+        <h2 style="color: slateblue;">Seletor Irmao Adjacente</h2>
+        <p style="color: blueviolet;">Um seletor irmao adjacente é nada mais nada menos que dois ou mais seletores simples que sao separados por um sinal de + esse mesmo seletor usa de parametro o irmao adjacente do primeiro elemento... </p>
+        <p style="color: blueviolet;">A forma de usar e dentro da &lt;style&gt; voce coloca p+p{color: rgb(231, 38, 183); ou outras definicioes que voce quer colocar dentro dessa style}</p>
     </div>
-    <div>
-        <p>&lt;p&gt; esse sera pulado&lt;/p&gt;</p>
-        <p>&lt;p&gt;Esse sera pintado&lt;/p&gt;</p>
+    <div class="exemplo">
+        <p style="color: blueviolet;">&lt;p&gt; esse sera pulado&lt;/p&gt;</p>
+        <p>&lt;p&gt;Esse sera pintado de rosa diferente dos outros que sera pintado de roxo&lt;/p&gt;</p>
+    </div>
+    <div class="exemplo2">
+        <h2>Os Seletores funcionam quando determinado elemento tem um valor especifico no seletor</h2>
+        <h3>No total sao 4</h3>
+        <p>[att] - Casa com qualquer elemento com o atributo att independente do seu valor</p>
+        <p>[att=val] - Casa com qualquer elemento com o atributo att cujo valor seja “val”</p>
+        <p>[att~=val] - Casa com valor de um atributo que pertence a uma lista de valores separados por espaço</p>
+        <p>[att|=val]  - Casa com qualquer elemento que tenha um atributo att de valor igual a um valor qualquer separado por um hífen de um valor começando com “val”. O principal uso deste seletor é o de casar elementos com um valor de idioma especificado no atributo lang, por exemplo; “en-us”, “en-gb”, etc.</p>
+        <h2>vamos para alguns Exemplos:</h2>
+        <h3>Nesse exemplo a regra sempre casara nos elemento h1 que tenham o atributo titulo </h3>
+        <p>Exemplo: p[titulo]{color: blueviolet;}</p>
+        <h2>No proximo exemplo o seletor ira casar com todos elementos de uma div com o mesmo atributo na classe</h2>
+        <p>div[class=main] {color: blueviolet;}</p>
+        <h2>Ja para atingir todos elementos em um 'td' com um atributo header de valor 'exe1' temos que usar</h2>
+        <p>td[headers~=exe1]{color:blueviolet;}</p>
+        <h2>no ultimo exemplo o seletor seguinte ira atingir o elemento p com todos os valores com atributo lang</h2>
+        <p>p[lang|=pt] {color:blueviolet;}</p>
+    <div class="home">
+        <a href="index.html">Voltar para a home</a>
     </div>
     
 </body>
