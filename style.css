@@ -1,15 +1,17 @@
 h1#first{
     text-align: center;
-    color: rgb(99, 28, 230);
+    color: rgb(240, 12, 183);
 }
 
 a{
-    color: rgb(219, 51, 51);
+    color: rgb(240, 12, 183);
     text-decoration: none;
 }
 
 body{
     text-align: center;
     background-size: 100%;
+    background-image: url("https://media.giphy.com/media/N3yLGQ1oMYfGU/giphy.gif");
+
 }
 
