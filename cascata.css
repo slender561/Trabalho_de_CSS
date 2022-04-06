@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-size: 100%;
+    background-image: url(https://media.giphy.com/media/1yld7nW3oQ2IyRubUm/giphy.gif);
+
+}
+a{
+    color: rgb(240, 12, 183);
+    text-decoration: none;
+}
+.home{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    float: left;
+    padding: 15%;
+}
