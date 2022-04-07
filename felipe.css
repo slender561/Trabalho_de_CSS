@@ -29,3 +29,10 @@ p{
 .exemplo2{
     color: slateblue;
 }
+a:visited{
+    color: green;
+}
+
+.hover:hover{
+    background-color:gold;
+}
