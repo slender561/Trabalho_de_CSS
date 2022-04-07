@@ -22,3 +22,7 @@ a{
     float: left;
     padding: 15%;
 }
+h4{
+    color: gold !important;
+    text-transform: uppercase;
+}
