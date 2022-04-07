@@ -2,7 +2,9 @@ h1#first{
     text-align: center;
     color: rgb(240, 12, 183);
 }
-
+h1,h2{
+    color: lime;
+}
 a{
     color: rgb(240, 12, 183);
     text-decoration: none;
@@ -35,4 +37,29 @@ a:visited{
 
 .hover:hover{
     background-color:gold;
+}
+a:active{
+    color: gold;
+}
+
+.nome1:focus{
+    color: purple;
+}
+.nome2:focus{
+    color: green;
+}
+.first-line:first-line{
+    color: gold;
+}
+.first-letter:first-letter{
+    color: gold;
+    font-size:150px;
+}
+q::before{
+    content"«";
+    color: gold;
+}
+q::after{
+    content"»";
+    color: lime;
 }

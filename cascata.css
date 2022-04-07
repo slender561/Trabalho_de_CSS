@@ -5,6 +5,9 @@ body{
     color: rgb(240, 12, 183);
 
 }
+h1,h2{
+    color: lime;
+}
 li{
     font-size:large;
 }
